@@ -1,0 +1,52 @@
+@import url('./fonts.css');
+@import url('./colors.css');
+@import url('./linksStyle.css');
+
+/* Общие стили */
+html,
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  height: fit-content;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  min-width: 320px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  margin: 2rem;
+  min-height: 90vh;
+  min-width: 320px;
+  max-width: 1024px;
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0 0 0;
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media only screen and (max-width: 600px) {
+  .main {
+    margin: 0.5rem;
+    min-height: 80vh;
+    min-width: auto;
+    max-width: 90vw;
+    width: 90%; /* Можно сделать еще меньше, если требуется */
+    border-radius: 0.5rem;
+  }
+}
+

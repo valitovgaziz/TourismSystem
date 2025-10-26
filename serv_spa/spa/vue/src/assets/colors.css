@@ -1,0 +1,23 @@
+/* Светлая тема (по умолчанию) */
+:root {
+    --background-color: #ffffff;
+    --text-color: #1c1d1d;
+    --light-dark-background-color: #ffffff;
+    --light-dark-text-color: #273f2c;
+    --disabled-backgroud-color: rgba(23, 62, 31, 0.281);
+    --button-text-color: #bac677;
+    --disabled-dark-background-color: rgba(55, 64, 62, 0.2);
+    --button-dark-background-color: #3cbf40;
+    --light-dark-background-color: #8cd68f;
+  }
+  
+  /* Темная тема */
+  [data-theme="dark"] {
+    --background-color: #282828;
+    --text-color: #3cb756;
+    --light-dark-background-color: #4e5e49;
+    --light-dark-text-color: #59f37b;
+    --disabled-dark-background-color: rgba(159, 193, 185, 0.2);
+    --button-dark-background-color: #395e3a;
+  }
+  

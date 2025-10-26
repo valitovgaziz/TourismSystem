@@ -1,0 +1,1 @@
+import{F as a,a as r}from"./footerB-DAi6c01a.js";import{S as o}from"./searchLine-3vDx-8Ye.js";import{c as t,a as e,F as s,o as c}from"./index-DccGIixi.js";const f={__name:"HomeView",setup(m){return(n,p)=>(c(),t(s,null,[e(a),e(o),e(r)],64))}};export{f as default};

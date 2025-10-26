@@ -1,0 +1,8 @@
+{
+    "languages": [
+        { "code": "en", "name": "English" },
+        { "code": "ru", "name": "Русский" },
+        { "code": "bak", "name": "Башҡорт"},
+        { "code": "tat", "name": "Татар"}
+    ]
+}

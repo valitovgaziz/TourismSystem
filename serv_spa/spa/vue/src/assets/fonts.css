@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'OpenSansVariableFont';
+    src: url('./fonts/Open_Sans/hinted-OpenSans-Regular.ttf') format('truetype-variations'),
+    url('./fonts/Open_Sans/OpenSans-Regular.woff') format('woff'),
+    url('./fonts/Open_Sans/OpenSans-Regular.woff2') format('woff2');
+    font-weight: 100 900;
+    font-stretch: 50% 200%;
+}
+
+@font-face {
+    font-family: 'OpenSansItalicVariableFont';
+    src: url('./fonts/Open_Sans/hinted-OpenSans-Italic.ttf') format('truetype-variations'),
+    url('./fonts/Open_Sans/OpenSans-Italic.woff') format('woff'),
+    url('./fonts/Open_Sans/OpenSans-Italic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: 100 900;
+    font-stretch: 50% 200%;
+}
+
+@font-face {
+    font-family: 'RobotoVariableFont';
+    src: url('./fonts/Roboto/hinted-Roboto-Regular.ttf') format('truetype-variations'),
+    url('./fonts/Roboto/Roboto-Regular.woff') format('woff'),
+    url('./fonts/Roboto/Roboto-Regular.woff2') format('woff2');
+    font-weight: 100 900;
+    font-stretch: 50% 200%;
+}
+
+@font-face {
+    font-family: 'RobotoItalicVarFont';
+    src: url('./fonts/Roboto/hinted-Roboto-Italic.ttf') format('truetype-variations'),
+    url('./fonts/Roboto/Roboto-Italic.woff') format('woff'),
+    url('./fonts/Roboto/Roboto-Italic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: 100 900;
+    font-stretch: 50% 200%;
+}
+
+:root {
+    --font-primary: 'OpenSansVariableFont', Arial, sans-serif;
+    --font-secondary: 'RobotoItalicVarFont', Arial, sans-serif;
+
+    --weight-light: 300;
+    --weight-normal: 400;
+    --weight-bold: 700;
+}
+
+body {
+    font-family: var(--font-primary);
+    font-weight: var(--weight-normal);
+}
+
+h1, h2, h3 {
+    font-family: var(--font-secondary);
+    font-weight: var(--weight-light);
+}

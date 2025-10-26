@@ -11,3 +11,4 @@ fill .env with your keys.
 1. Set conteiner for DB PostgresQL that work with
 2. Set conteiner for BackEdn REST API on Golang (gorm, chi) that connect with DB on PostgresQL
 3. FrontEndSPA on vue3.js project build it do dist directory or ather and set nginx (apache) this directory as html index
+
